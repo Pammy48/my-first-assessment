@@ -1,0 +1,30 @@
+Script started on Tue Nov 23 17:04:48 2021
+bash-3.2$ mkdire folder1          folder1 folder2
+bash-3.2$ ls
+README.md	folder1		folder2		output.txt
+bash-3.2$ touch file1.txt file2.txt file3.txt
+bash-3.2$ ls
+README.md	file2.txt	folder1		output.txt
+file1.txt	file3.txt	folder2
+bash-3.2$ mv v file1.txt g   folder1/
+bash-3.2$ ls
+README.md	file3.txt	folder2
+file2.txt	folder1		output.txt
+bash-3.2$ mv  mv file2.txt folder2/
+bash-3.2$ cd ..    folder1/
+bash-3.2$ ls
+file1.txt
+bash-3.2$ pwd
+/Users/pammyb/Projects/my-first-assessment/folder1
+bash-3.2$ cd ..
+bash-3.2$ pwd
+/Users/pammyb/Projects/my-first-assessment
+bash-3.2$ ls
+README.md	file3.txt	folder1		folder2		output.txt
+bash-3.2$ rm file3.txt             file3.txt              rm file3.txt 
+bash-3.2$ ls
+README.md	folder1		folder2		output.txt
+bash-3.2$ exit
+exit
+
+Script done on Tue Nov 23 17:12:34 2021
